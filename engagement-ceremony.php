@@ -97,7 +97,7 @@
                     <!-- </a> -->
                     <?php
     // Enter your Directry/Folder Name I have Given Folder Name As Images
-      $files = scandir('images/');
+      $files = scandir('./img/');
       echo "<div class='row'>";
       foreach ($files as $file) {
         if ($file !== "." && $file !== "..") {
