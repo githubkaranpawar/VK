@@ -86,7 +86,7 @@ a:hover {
 
 /**Responsive Css**/
 /**Mobile**/
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 
     /**Home Page About US Section**/
     .vk-aboutImg img {
