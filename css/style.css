@@ -89,6 +89,10 @@ a:hover {
 @media screen and (max-width: 425px) {
 
     /**Home Page About US Section**/
+    .vk-aboutmain {
+        display: block !important;
+    }
+
     .vk-aboutImg img {
         width: 100%;
         margin-bottom: 1rem;
