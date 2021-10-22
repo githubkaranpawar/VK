@@ -82,6 +82,12 @@ a:hover {
     padding: 5px;
 }
 
+.vkabout-page {
+    background: #fff6f6;
+    border-radius: 5px;
+    padding: 5px
+}
+
 /**Home Page About Us Section**/
 
 /**Responsive Css**/
