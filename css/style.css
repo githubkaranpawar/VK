@@ -1,0 +1,109 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+a,
+h1 {
+    text-decoration: none;
+    color: #ff0000;
+    font-family: 'Playfair Display', serif;
+}
+
+audio {
+    display: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.card {
+    border: 1px solid red;
+    border-style: dashed;
+}
+
+.vk-title {
+    background: #f9f9f9;
+    padding: 2px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid red;
+    border-style: dashed;
+}
+
+/**Read More Transitions**/
+.vk-readMore {
+    animation: waviy 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(-20px)
+    }
+}
+
+/**Read More Transitions**/
+
+/**Navbar Css**/
+.vknavbarbg-dark {
+    background: #000 !important;
+    height: 77px;
+    padding: 0;
+}
+
+.vknavbarbg-dark .navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.vknavbarbg-dark .navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+/**Navbar Css**/
+/**Home Page About Us Section**/
+.vk-aboutImg {
+    flex: 0 45%;
+}
+
+.vk-about {
+    flex: 0 50%;
+    background: #fff6f6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/**Home Page About Us Section**/
+
+/**Responsive Css**/
+/**Mobile**/
+@media only screen and (max-width: 320px) {
+
+    /**Home Page About US Section**/
+    .vk-aboutImg img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .vk-aboutImg {
+        flex: 0 100%;
+    }
+
+    .vk-about {
+        flex: 0 100%;
+    }
+
+    /**Home Page About US Section**/
+}
+
+/**Mobile**/
+/**Responsive Css**/
