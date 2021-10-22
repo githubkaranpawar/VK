@@ -96,7 +96,7 @@
 					<img src="./img/Slider-1.png" alt="About Us Image" class="w-100 rounded h-100">
                     <!-- </a> -->
                     <?php
-    // Enter your Directry/Folder Name I have Given Folder Name As Images
+    // Enter your Directry/Folder Name I have Given Folder Name As Imagessaa
       $files = scandir('./img/');
       echo "<div class='row'>";
       foreach ($files as $file) {
